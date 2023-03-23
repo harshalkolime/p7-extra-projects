@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family: poppins;
 }
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -124,15 +123,16 @@
 .text {
     display: flex;
     background-color: transparent;
-
-}
+    border: solid red;
+    height: 50rem;
+padding-bottom: 100%;}
 
 .leftside {
-    margin-top: 6rem;
+    margin-top: 2rem;
     width: 70rem;
-    height: 38rem;
+    height: 35rem;
     color: rgb(215, 211, 211);
-    justify-content: space-between;
+    justify-content: space-around;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -143,7 +143,7 @@
 
 
 .rightside {
-    width: 80rem;
+    width: 70rem;
     position: absolute;
     background-color: transparent;
     overflow: hidden;
@@ -446,13 +446,13 @@
 
 .article5 {
     height: 40rem;
-    width: 98-rem;
+    width: 9-rem;
     overflow: hidden;
 }
 
 .img51 {
     position: absolute;
-    width: 96rem;
+    width: 95rem;
     overflow: hidden;
     background-color: transparent;
 }
@@ -460,7 +460,7 @@
 .img52 {
     position: absolute;
     background-color: transparent;
-    width: 96rem;
+    width: 95rem;
 }
 
 .a5img {
@@ -483,7 +483,7 @@
 .a5note {
     position: absolute;
     height: 550px;
-    width: 100rem;
+    width: 90rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
